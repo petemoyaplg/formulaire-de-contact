@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/materialize-v1.0.0/materialize/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="entete1">
+            <h1 class="text">Répertoire de contact</h1>
+        </div>
+        <div class="col">
+            <div class="row1">
+                <div class="entete">
+                    <h2 class="text">Formulaire de contact</h2>
+                </div>
+                <form action="" method="POST" class="corp">
+                    <label for="prenom">Prénom</label><input type="text" name="" id="prenom">
+                    <label for="nom">Nom</label><input type="text" name="" id="nom">
+                    <label for="groupe">Groupe</label>
+                    <select name="" id="groupe">
+                        <option value="" disabled hidden selected>--Selectionner un groupe--</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                    <label for="bio">Bio</label><textarea name="" id="bio" cols="30" rows="3"></textarea>
+                    <div class="div-select-img">
+                        <div><input type="file" name="choisir un fichier" id="choix-photo" accept=".jpg,.png"></div>
+                        <div class="div-photo">
+                            <img src="img/icons8-checked-user-male-80.png" alt="" width="100" height="100">
+                        </div>
+                    </div>
+                    <div class="div-btn">
+                        <button type="submit" id="btn-creer-contact" class="btn">Créer</button>
+                        <button type="reset" id="btn-reinit" class="btn">Réinit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row2">
+                <div class="entete">
+                    <h2 class="text">Liste de contact</h2>
+                </div>
+                <div class="corp">
+                    <!-- <div class="div-personne">
+                        <div class="info-personne">
+                            <img src="img/IMG_20201221_102820_027.jpg" alt="Photo de la personne" width="70"
+                                height="70">
+                        </div>
+                        <div class="info-personne">
+                            <p id="prenom-nom">Prénom Nom</p>
+                            <p id="para-groupe">Groupe</p>
+                            <p id="para-bio">
+                                hchchchgvfjguyjkgfujtfcyhdctrgtcrfc
+                                kujgyjgvyujgvujgvfujfvutftfctyfcy
+                                hgchtfcfhcfhcfh
+                            </p>
+                        </div>
+                        <div class="info-personne">
+                            <p>X</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/vanilla.js"></script>
+</body>
+
+</html>
